@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2013-04-19 BZR 4011)-stable date = 5/10/2013 9:30:36 PM
+
+BeginCmp
+TimeStamp = /518DBD24;
+Reference = C1;
+ValeurCmp = SERIAL_TTL_3.5MM;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /518DABB7;
+Reference = CON1;
+ValeurCmp = AVR-ISP-6;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /518DABE3;
+Reference = IC1;
+ValeurCmp = ATMEGA8A-P;
+IdModule  = DIP-28__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /518DC280;
+Reference = P1;
+ValeurCmp = BAT_3V;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /518DC201;
+Reference = P2;
+ValeurCmp = NRF24_CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /518DC1A2;
+Reference = P3;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
+EndCmp
+
+EndListe
