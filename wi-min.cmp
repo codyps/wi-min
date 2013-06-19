@@ -1,31 +1,52 @@
-Cmp-Mod V01 Created by CvPcb (2013-04-19 BZR 4011)-stable date = 5/10/2013 9:30:36 PM
+Cmp-Mod V01 Created by CvPcb (2013-04-19 BZR 4011)-stable date = 6/9/2013 6:14:00 PM
 
 BeginCmp
-TimeStamp = /518DBD24;
-Reference = C1;
-ValeurCmp = SERIAL_TTL_3.5MM;
-IdModule  = SIL-3;
+TimeStamp = /51930143;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51930269;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
 EndCmp
 
 BeginCmp
 TimeStamp = /518DABB7;
 Reference = CON1;
 ValeurCmp = AVR-ISP-6;
-IdModule  = pin_array_3x2;
+IdModule  = atmel-2-AVR-ISP-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /518F393B;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /518DABE3;
 Reference = IC1;
 ValeurCmp = ATMEGA8A-P;
-IdModule  = DIP-28__300;
+IdModule  = atmel-TQFP32;
 EndCmp
 
 BeginCmp
-TimeStamp = /518DC280;
+TimeStamp = /519D747E;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /51A69EA9;
 Reference = P1;
-ValeurCmp = BAT_3V;
-IdModule  = SIL-2;
+ValeurCmp = BATTERY;
+IdModule  = CR2032_HOLDER_TH;
 EndCmp
 
 BeginCmp
@@ -40,6 +61,41 @@ TimeStamp = /518DC1A2;
 Reference = P3;
 ValeurCmp = CONN_4;
 IdModule  = SIL-4;
+EndCmp
+
+BeginCmp
+TimeStamp = /51A643DD;
+Reference = P4;
+ValeurCmp = 3F07;
+IdModule  = 3F07;
+EndCmp
+
+BeginCmp
+TimeStamp = /518ED7F4;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518F3965;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /518ED803;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /51A6A34F;
+Reference = X1;
+ValeurCmp = CRYSTAL_W_GND;
+IdModule  = AB26TRB;
 EndCmp
 
 EndListe
