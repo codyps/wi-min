@@ -1,4 +1,11 @@
-Cmp-Mod V01 Created by CvPcb (2013-04-19 BZR 4011)-stable date = 6/9/2013 6:14:00 PM
+Cmp-Mod V01 Created by CvPcb (2013-04-19 BZR 4011)-stable date = 6/24/2013 11:11:43 PM
+
+BeginCmp
+TimeStamp = /51C2B684;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
 
 BeginCmp
 TimeStamp = /51930143;
@@ -10,6 +17,13 @@ EndCmp
 BeginCmp
 TimeStamp = /51930269;
 Reference = C3;
+ValeurCmp = C;
+IdModule  = SM0603_Capa;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C2B68A;
+Reference = C4;
 ValeurCmp = C;
 IdModule  = SM0603_Capa;
 EndCmp
@@ -29,24 +43,24 @@ IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /518DABE3;
-Reference = IC1;
-ValeurCmp = ATMEGA8A-P;
-IdModule  = atmel-TQFP32;
+TimeStamp = /51C2AE2F;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /519D747E;
-Reference = JP1;
-ValeurCmp = JUMPER;
-IdModule  = SM0402;
+TimeStamp = /51C2A6AD;
+Reference = IC1;
+ValeurCmp = ATMEGA8-AI;
+IdModule  = TQFP32;
 EndCmp
 
 BeginCmp
 TimeStamp = /51A69EA9;
 Reference = P1;
 ValeurCmp = BATTERY;
-IdModule  = CR2032_HOLDER_TH;
+IdModule  = CR2032_HOLDER_TH_ON_SIDE;
 EndCmp
 
 BeginCmp
@@ -80,13 +94,34 @@ EndCmp
 BeginCmp
 TimeStamp = /518F3965;
 Reference = R2;
+ValeurCmp = 150R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C2AC58;
+Reference = R3;
 ValeurCmp = R;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C2AE35;
+Reference = R4;
+ValeurCmp = 150R;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /518ED803;
 Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /51C2AC5E;
+Reference = SW2;
 ValeurCmp = SPST;
 IdModule  = SW_PUSH_SMALL;
 EndCmp
